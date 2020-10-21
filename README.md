@@ -50,4 +50,6 @@ a specified price (e.g. 55.0). Don’t worry what units that is in.
 * JMock
 
 ### Solution
-Integration test - Will call TradingStrategy with list of trading requests. Listner will only look out for stock (IBM) and complete the buy trade if current stock price is equal or below the threshold mark (e.g 50.0).
+Integration test - Will call TradingStrategy with list of trading requests. Listner will only look out for stock (IBM) and complete the buy trade if current stock price is equal or below the threshold mark (e.g 55.0).
+
+Buy threshold price and volume to buy are defined with stock in Stock.

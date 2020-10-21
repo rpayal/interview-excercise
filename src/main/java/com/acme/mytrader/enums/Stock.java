@@ -10,7 +10,7 @@ import java.util.Random;
 public enum Stock {
     GOOGL("GOOGL", 55.0, 75,150.0, 75),
     APPL("APPL", 40.0, 65,200.0, 65),
-    IBM("IBM", 50.0, 100,180.0, 75);
+    IBM("IBM", 55.0, 100,180.0, 75);
 
     private final String stockTicker;
     private final double buyPriceThreshold;
